@@ -236,12 +236,16 @@ Cada vez que cambias el fondo → todo el sistema se recolorea automáticamente.
 Ejemplos:
 
 ```
+# Dentro del entorno
 F1 → Escribe tu IP (VPN → Ethernet fallback)
 F2 → Escribe la IP del objetivo (~/.cache/target)
 $mod + space → Rofi launcher
 $mod + Enter → Terminal
 $mod + w → Cierra Terminal o cualquier aplicación
 $mod + {1,2,3,4...} → Cambio de ventanas
+
+# Dentro de nvim
+SPACE + t → Abre el plugin de NvimTree (Pulsando el mismo se cierra)
 ```
 
 > Se pueden añadir mas `shortcuts` en el archivo `~/.config/i3/config`.
@@ -321,8 +325,11 @@ Activar en:
 Este entorno ha sido:
 
 ✔ Probado en VMware
+
 ✔ Optimizado para resolución dinámica
+
 ✔ Estable en sesiones prolongadas
+
 ✔ Ideal para testing / labs / desarrollo
 
 ---
