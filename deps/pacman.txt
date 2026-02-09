@@ -1,0 +1,159 @@
+# ─────────────────────────────
+# CORE / SISTEMA
+# ─────────────────────────────
+base-devel
+linux-headers
+man-db
+man-pages
+polkit
+dbus
+rsync
+eza
+fd
+bat
+firefox
+
+# ─────────────────────────────
+# XORG / WM
+# ─────────────────────────────
+i3-wm
+i3status
+i3lock
+i3blocks
+xorg-server
+xorg-xinit
+xorg-xrandr
+xorg-xset
+xorg-xprop
+xorg-xinput
+xclip
+xdotool
+feh
+picom
+numlockx
+
+# ─────────────────────────────
+# LOGIN / SESSION
+# ─────────────────────────────
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+accountsservice
+
+# ─────────────────────────────
+# UI / BAR / LAUNCHER
+# ─────────────────────────────
+polybar
+rofi
+dunst
+papirus-icon-theme
+gnome-themes-extra
+
+# ─────────────────────────────
+# TERMINAL / SHELL
+# ─────────────────────────────
+kitty
+zsh
+zsh-completions
+zsh-autosuggestions
+zsh-syntax-highlighting
+fzf
+bat
+jq
+less
+which
+tree
+ripgrep
+
+# ─────────────────────────────
+# FILE MANAGER / GTK
+# ─────────────────────────────
+thunar
+thunar-media-tags-plugin
+gvfs
+gvfs-mtp
+gvfs-smb
+file-roller
+lxappearance
+gtk3
+gtk4
+qt5ct
+
+# ─────────────────────────────
+# THEMING / COLORS (WAL)
+# ─────────────────────────────
+python
+python-pywal
+python-pillow
+imagemagick
+
+# ─────────────────────────────
+# FONTS (BASE)
+# ─────────────────────────────
+ttf-dejavu
+ttf-liberation
+ttf-ubuntu-font-family
+ttf-fira-code
+ttf-jetbrains-mono
+noto-fonts
+noto-fonts-emoji
+noto-fonts-cjk
+adobe-source-code-pro-fonts
+ttf-jetbrains-mono-nerd
+ttf-nerd-fonts-symbols
+
+# ─────────────────────────────
+# CURSORES BASE
+# ─────────────────────────────
+xcursor-themes
+breeze
+
+# ─────────────────────────────
+# NETWORK / UTILIDADES
+# ─────────────────────────────
+networkmanager
+network-manager-applet
+nm-connection-editor
+inetutils
+bind
+openvpn
+wireguard-tools
+
+# ─────────────────────────────
+# AUDIO
+# ─────────────────────────────
+pipewire
+pipewire-alsa
+pipewire-pulse
+pipewire-jack
+wireplumber
+alsa-utils
+pavucontrol
+
+# ─────────────────────────────
+# BLUETOOTH
+# ─────────────────────────────
+bluez
+bluez-utils
+blueman
+
+# ─────────────────────────────
+# DEV / BUILD / UTILS
+# ─────────────────────────────
+git
+curl
+wget
+unzip
+zip
+neovim
+nodejs
+npm
+shellcheck
+stylua
+
+# ─────────────────────────────
+# IMAGEN / MEDIA
+# ─────────────────────────────
+nsxiv
+mpv
+ffmpeg

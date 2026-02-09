@@ -1,0 +1,11 @@
+# AUR helper
+yay
+
+# Shell / prompt
+oh-my-posh-bin
+
+# Cursores
+bibata-cursor-theme
+
+# GTK legacy
+gtk-engine-murrine
