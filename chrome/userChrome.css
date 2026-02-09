@@ -1,0 +1,158 @@
+/* Barra de pestañas más compacta */
+#tabbrowser-tabs {
+    --tab-min-height: 30px !important;
+}
+
+/* Esconder barra de título */
+#titlebar { display: none; }
+
+/* Redondear esquinas de pestañas */
+.tab-background {
+    border-radius: 8px !important;
+}
+
+/* Fuente personalizada */
+* {
+    font-family: "Segoe UI" !important;
+}
+
+/* Fondo gris ceniza solo para la barra de pestañas */
+#TabsToolbar {
+    background-color: #202020 !important; /* Gris ceniza */
+}
+
+/* ====== TODOS LOS BORDES REDONDEADOS ====== */
+
+/* 1. BARRA DE DIRECCIONES Y BOTONES */
+#nav-bar {
+    border-radius: 12px !important;
+    margin: 4px 8px 4px 8px !important;
+    background-color: #2a2a2a !important;
+}
+
+/* Barra de búsqueda */
+#urlbar, .searchbar-textbox {
+    border-radius: 20px !important;
+}
+
+/* Botones de la barra de navegación */
+#nav-bar toolbarbutton {
+    border-radius: 8px !important;
+}
+
+/* 2. MENÚS Y PANELES */
+/* Menú principal (hamburguesa) */
+#PanelUI-button {
+    border-radius: 8px !important;
+}
+
+/* Menús desplegables */
+panel, menupopup, .widget-overflow-list {
+    border-radius: 12px !important;
+    overflow: hidden !important;
+}
+
+/* 3. BARRA LATERAL */
+#sidebar-box {
+    border-radius: 12px 0 0 12px !important;
+}
+
+#sidebar-header {
+    border-radius: 12px 0 0 0 !important;
+}
+
+/* 4. BOTONES DE LA BARRA DE HERRAMIENTAS */
+toolbarbutton, .toolbarbutton-1 {
+    border-radius: 8px !important;
+}
+
+/* Botón de nueva pestaña */
+#tabs-newtab-button {
+    border-radius: 8px !important;
+}
+
+/* 5. BARRA DE MARCADORES */
+#PersonalToolbar {
+    border-radius: 8px !important;
+    margin: 0 8px 4px 8px !important;
+    background-color: #2a2a2a !important;
+}
+
+/* 6. PESTAÑAS CON MÁS DETALLES */
+/* Espacio entre pestañas */
+.tabbrowser-tab {
+    padding: 0 2px !important;
+}
+
+/* Forma de las pestañas */
+.tab-background {
+    border-radius: 12px 12px 0 0 !important;
+    margin-top: 4px !important;
+}
+
+/* Pestaña activa */
+.tabbrowser-tab[selected] .tab-background {
+    background-color: #404040 !important;
+}
+
+/* 7. BOTONES DE CONTROL DE VENTANA (min, max, close) */
+.titlebar-button {
+    border-radius: 8px !important;
+}
+
+.titlebar-button:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* 8. BARRA DE ESTADO */
+#statuspanel {
+    border-radius: 12px 12px 0 0 !important;
+}
+
+/* 9. NOTIFICACIONES Y POPUPS */
+.notification, .popup-notification {
+    border-radius: 12px !important;
+}
+
+/* 10. BARRAS DE DESPLAZAMIENTO */
+scrollbar, scrollbarbutton, scrollcorner {
+    border-radius: 10px !important;
+}
+
+scrollbar thumb {
+    border-radius: 10px !important;
+}
+
+/* 11. INPUTS Y TEXTAREAS */
+input, textarea, select {
+    border-radius: 8px !important;
+}
+
+/* 12. BOTONES EN GENERAL */
+button {
+    border-radius: 8px !important;
+}
+
+/* 13. BARRA DE PROGRESO */
+.progress-bar {
+    border-radius: 4px !important;
+}
+
+/* 14. SEPARADORES */
+separator, .separator {
+    border-radius: 1px !important;
+}
+
+/* 15. CONTENEDOR PRINCIPAL */
+#browser {
+    border-radius: 0 0 12px 12px !important;
+    overflow: hidden !important;
+}
+
+/* 16. EFECTO HOVER PARA TODOS LOS ELEMENTOS */
+toolbarbutton:hover, 
+#tabs-newtab-button:hover,
+.tabbrowser-tab:hover .tab-background,
+.titlebar-button:hover {
+    transition: all 0.2s ease !important;
+}
