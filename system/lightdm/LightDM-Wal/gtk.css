@@ -1,0 +1,95 @@
+/* ===============================
+   COLORES BASE (wal friendly)
+================================ */
+@define-color bg_color        #0a1116;
+@define-color bg_panel        rgba(10,17,22,0.88);
+@define-color fg_color        #e4dcd2;
+@define-color fg_muted        #9f9a93;
+@define-color accent          #D38B77;
+@define-color accent_hover    #906F65;
+@define-color border_color    rgba(255,255,255,0.08);
+
+/* ===============================
+   FONDO GENERAL
+================================ */
+window {
+    background-color: @bg_color;
+    color: @fg_color;
+}
+
+/* ===============================
+   PANEL DE LOGIN (CENTRAL)
+================================ */
+#login_window {
+    background-color: @bg_panel;
+    border-radius: 22px;
+    padding: 28px;
+    border: 1px solid @border_color;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.55);
+}
+
+/* ===============================
+   TEXTO GENERAL
+================================ */
+#login_window label {
+    color: @fg_color;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+}
+
+/* ===============================
+   ENTRADA DE CONTRASEÑA
+================================ */
+#login_window entry {
+    background-color: rgba(255,255,255,0.04);
+    color: @fg_color;
+    border-radius: 12px;
+    padding: 10px 14px;
+    border: 1px solid rgba(255,255,255,0.06);
+}
+
+#login_window entry:focus {
+    border-color: @accent;
+}
+
+/* ===============================
+   BOTÓN LOGIN
+================================ */
+#login_window button {
+    background-color: @accent;
+    color: @bg_color;
+    border-radius: 14px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+}
+
+#login_window button:hover {
+    background-color: @accent_hover;
+}
+
+/* ===============================
+   SESIÓN / USUARIO
+================================ */
+#login_window combobox,
+#login_window combobox entry {
+    background-color: rgba(255,255,255,0.04);
+    color: @fg_color;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+/* ===============================
+   MENSAJES / ERRORES
+================================ */
+#login_window .error {
+    color: @accent;
+}
+
+/* ===============================
+   RELOJ (si se muestra)
+================================ */
+#clock {
+    color: @fg_muted;
+    font-size: 12px;
+}
