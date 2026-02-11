@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/diseo/.wallpapers/anonymous_clean.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#080F1F",
+        "foreground": "#ced7e6",
+        "cursor": "#ced7e6"
+    },
+    "colors": {
+        "color0": "#080F1F",
+        "color1": "#5E708E",
+        "color2": "#778AA7",
+        "color3": "#899BB8",
+        "color4": "#97AAC8",
+        "color5": "#AABCD9",
+        "color6": "#ACBFE0",
+        "color7": "#ced7e6",
+        "color8": "#9096a1",
+        "color9": "#5E708E",
+        "color10": "#778AA7",
+        "color11": "#899BB8",
+        "color12": "#97AAC8",
+        "color13": "#AABCD9",
+        "color14": "#ACBFE0",
+        "color15": "#ced7e6"
+    }
+}

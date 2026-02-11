@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/diseo/.wallpapers/anonymous_mask_aeshtetic.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#120d10",
+        "foreground": "#e7ded6",
+        "cursor": "#e7ded6"
+    },
+    "colors": {
+        "color0": "#120d10",
+        "color1": "#A47D81",
+        "color2": "#A89891",
+        "color3": "#AFA199",
+        "color4": "#D09EA0",
+        "color5": "#C7B8AE",
+        "color6": "#D4C6B9",
+        "color7": "#e7ded6",
+        "color8": "#a19b95",
+        "color9": "#A47D81",
+        "color10": "#A89891",
+        "color11": "#AFA199",
+        "color12": "#D09EA0",
+        "color13": "#C7B8AE",
+        "color14": "#D4C6B9",
+        "color15": "#e7ded6"
+    }
+}

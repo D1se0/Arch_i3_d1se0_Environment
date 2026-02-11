@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/diseo/.wallpapers/hacker_white.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#cecece",
+        "cursor": "#cecece"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#383838",
+        "color2": "#464646",
+        "color3": "#565656",
+        "color4": "#666666",
+        "color5": "#777777",
+        "color6": "#919191",
+        "color7": "#cecece",
+        "color8": "#909090",
+        "color9": "#383838",
+        "color10": "#464646",
+        "color11": "#565656",
+        "color12": "#666666",
+        "color13": "#777777",
+        "color14": "#919191",
+        "color15": "#cecece"
+    }
+}

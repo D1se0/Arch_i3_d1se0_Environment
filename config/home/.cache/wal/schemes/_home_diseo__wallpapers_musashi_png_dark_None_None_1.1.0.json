@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/diseo/.wallpapers/musashi.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1c1c1d",
+        "foreground": "#bebfbf",
+        "cursor": "#bebfbf"
+    },
+    "colors": {
+        "color0": "#1c1c1d",
+        "color1": "#706578",
+        "color2": "#7F807C",
+        "color3": "#745F81",
+        "color4": "#7C6A8B",
+        "color5": "#836D8E",
+        "color6": "#7D8386",
+        "color7": "#bebfbf",
+        "color8": "#858585",
+        "color9": "#706578",
+        "color10": "#7F807C",
+        "color11": "#745F81",
+        "color12": "#7C6A8B",
+        "color13": "#836D8E",
+        "color14": "#7D8386",
+        "color15": "#bebfbf"
+    }
+}

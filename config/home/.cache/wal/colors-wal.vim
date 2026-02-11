@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/diseo/.wallpapers/flowers.png"
+let background = "#0a1116"
+let foreground = "#e4dcd2"
+let cursor     = "#e4dcd2"
+
+" Colors
+let color0  = "#0a1116"
+let color1  = "#906F65"
+let color2  = "#7B8479"
+let color3  = "#8C877A"
+let color4  = "#D38B77"
+let color5  = "#7C8A82"
+let color6  = "#A39F90"
+let color7  = "#e4dcd2"
+let color8  = "#9f9a93"
+let color9  = "#906F65"
+let color10 = "#7B8479"
+let color11 = "#8C877A"
+let color12 = "#D38B77"
+let color13 = "#7C8A82"
+let color14 = "#A39F90"
+let color15 = "#e4dcd2"

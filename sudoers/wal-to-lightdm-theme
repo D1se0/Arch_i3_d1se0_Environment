@@ -1,1 +1,1 @@
-%wheel ALL=(root) NOPASSWD: ~/.local/bin/wal-to-lightdm-theme
+%wheel ALL=(root) NOPASSWD: /home/<USER>/.local/bin/wal-to-lightdm-theme

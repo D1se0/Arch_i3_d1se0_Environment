@@ -1,0 +1,21 @@
+set $wallpaper /home/diseo/.wallpapers/flowers.png
+
+set $background #0a1116
+set $foreground #e4dcd2
+
+set $color0 #0a1116
+set $color1 #906F65
+set $color2 #7B8479
+set $color3 #8C877A
+set $color4 #D38B77
+set $color5 #7C8A82
+set $color6 #A39F90
+set $color7 #e4dcd2
+set $color8 #9f9a93
+set $color9 #906F65
+set $color10 #7B8479
+set $color11 #8C877A
+set $color12 #D38B77
+set $color13 #7C8A82
+set $color14 #A39F90
+set $color15 #e4dcd2

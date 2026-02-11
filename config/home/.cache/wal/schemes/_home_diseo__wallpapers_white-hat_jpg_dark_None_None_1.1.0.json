@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/diseo/.wallpapers/white-hat.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E0E0E",
+        "foreground": "#e6e7e6",
+        "cursor": "#e6e7e6"
+    },
+    "colors": {
+        "color0": "#0E0E0E",
+        "color1": "#7F7F80",
+        "color2": "#979797",
+        "color3": "#A0A09F",
+        "color4": "#A7A7A7",
+        "color5": "#C0C0BF",
+        "color6": "#D6D6D6",
+        "color7": "#e6e7e6",
+        "color8": "#a1a1a1",
+        "color9": "#7F7F80",
+        "color10": "#979797",
+        "color11": "#A0A09F",
+        "color12": "#A7A7A7",
+        "color13": "#C0C0BF",
+        "color14": "#D6D6D6",
+        "color15": "#e6e7e6"
+    }
+}

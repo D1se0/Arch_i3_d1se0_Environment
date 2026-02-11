@@ -77,11 +77,13 @@ fi
 
 echo "🔗 Creando symlinks de root hacia el usuario"
 
+sudo rm -rf /root/.cache/wal
 sudo mkdir -p /root/.config
 
 sudo ln -sfn "$HOME_DIR/.config/zsh"      /root/.config/zsh
 sudo ln -sfn "$HOME_DIR/.config/ohmyposh" /root/.config/ohmyposh
 sudo ln -sfn "$HOME_DIR/.config/shell"    /root/.config/shell
+sudo ln -sfn "$HOME_DIR/.cache/wal"       /root/.cache/wal
 sudo ln -sfn /root/.config/zsh/.zshrc     /root/.zshrc
 
 # ─────────────────────────────
@@ -151,5 +153,15 @@ for link in "${!SKEL_LINKS[@]}"; do
   sudo ln -sfn "$target" "/etc/skel/$link"
 done
 
+# Iniciar servicios de docker
+# sudo systemctl enable docker
+# sudo systemctl start docker
 
+if [[ -d "$ROOT_DIR/config/home/.cache/wal" ]]; then
+  echo "🎨 Restaurando cache de wal"
+  mkdir -p "$HOME_DIR/.cache"
+  rsync -a "$ROOT_DIR/config/home/.cache/wal/" "$HOME_DIR/.cache/wal/"
+fi
+
+echo "[*] Modifica con tu usuario el archivo /etc/sudoers.d/wal-to-lightdm-theme"
 echo "✅ Arch i3 environment aplicado correctamente"

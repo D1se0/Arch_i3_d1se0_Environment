@@ -4,10 +4,10 @@
 xrandr --dpi 96
 
 # Wallpaper + colors (UNICA fuente de verdad)
-wal -i "$HOME/.wallpapers/flowers.png"
-~/.local/bin/wal-to-posh
-~/.local/bin/wal-to-rofi-vars
-$HOME/.local/bin/wal-to-lightdm-theme
+#wal -i "$HOME/.wallpapers/flowers.png"
+#~/.local/bin/wal-to-posh
+#~/.local/bin/wal-to-rofi-vars
+#$HOME/.local/bin/wal-to-lightdm-theme
 
 # Notifications
 pidof dunst >/dev/null || dunst &

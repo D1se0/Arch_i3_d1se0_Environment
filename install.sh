@@ -15,6 +15,8 @@ source "$ROOT_DIR/scripts/checks.sh"
 source "$ROOT_DIR/scripts/install_deps.sh"
 source "$ROOT_DIR/scripts/apply_files.sh"
 
+find $HOME -type f -name "*.sh" -exec chmod +x {} +
+
 echo
 echo "✅ Instalación terminada."
 echo "👉 Cierra sesión o reinicia para que todo cargue limpio."

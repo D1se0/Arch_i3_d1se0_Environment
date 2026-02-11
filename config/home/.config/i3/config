@@ -231,6 +231,12 @@ bindsym $mod+space exec --no-startup-id \
 # Open Firefox
 bindsym $mod+Shift+f exec --no-startup-id firefox
 
+# Restaurar colores wal
+exec_always --no-startup-id wal -R
+exec_always --no-startup-id ~/.local/bin/wal-to-posh
+exec_always --no-startup-id ~/.local/bin/wal-to-rofi-vars
+exec_always --no-startup-id ~/.local/bin/wal-to-lightdm-theme
+
 # Polybar Exec
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
