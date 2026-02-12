@@ -247,6 +247,11 @@ $mod + {1,2,3,4...} → Cambio de ventanas
 
 # Dentro de nvim
 SPACE + t → Abre el plugin de NvimTree (Pulsando el mismo se cierra)
+
+# Dentro de kitty
+ctrl+shift+t → Juega con las ventanas de kitty extras (Abrir ventana nueva dentro de la misma terminal)
+ctrl+shift+alt+t → Renombrar la ventana actual de kitty
+ctrl+shift+w → Cerrar todas las ventanas de kitty
 ```
 
 > Se pueden añadir mas `shortcuts` en el archivo `~/.config/i3/config`.
