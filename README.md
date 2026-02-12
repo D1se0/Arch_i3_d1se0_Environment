@@ -237,6 +237,10 @@ Cada vez que cambias el fondo → todo el sistema se recolorea automáticamente.
 Ejemplos:
 
 ```
+# Terminal
+windows+enter → Abre una terminal de kitty
+windows+w → Cierra la terminal actual de kitty o cualquier ventana de trabajo
+
 # Dentro del entorno
 F1 → Escribe tu IP (VPN → Ethernet fallback)
 F2 → Escribe la IP del objetivo (~/.cache/target)
@@ -251,7 +255,15 @@ SPACE + t → Abre el plugin de NvimTree (Pulsando el mismo se cierra)
 # Dentro de kitty
 ctrl+shift+t → Juega con las ventanas de kitty extras (Abrir ventana nueva dentro de la misma terminal)
 ctrl+shift+alt+t → Renombrar la ventana actual de kitty
-ctrl+shift+w → Cerrar todas las ventanas de kitty
+ctrl+shift+w → Cerrar todas las ventanas de kitty abiertas por "ctrl+shift+t"
+
+ctrl+shift+enter → Abre una ventana dentro de la misma terminal de kitty
+ctrl+shift+r → Realizar un resize de la ventana actual de kitty junto con la otra abierta
+   |
+   |-> s → Para bajar la ventana de terminal de kitty un poco mas
+   |-> t → Para subir la ventana de terminal de kitty un poco mas
+   |-> q → Para salirse del resize de ventanas
+ctrl+shift+w → Cierra la ventana actual de kitty abierta por "ctrl+shift+enter"
 ```
 
 > Se pueden añadir mas `shortcuts` en el archivo `~/.config/i3/config`.
